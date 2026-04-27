@@ -4,17 +4,12 @@
     "slug": "gluco-calc",
     "version": "1.0.0",
     "scheme": "gluco-calc",
-    "orientation": "portrait",
-    "userInterfaceStyle": "light",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "web": {
       "bundler": "metro",
       "output": "static"
     },
-    "plugins": [
-      "expo-router"
-    ]
+    "experiments": {
+      "tsconfigPaths": true
+    }
   }
 }
