@@ -1,5 +1,4 @@
 {
   "installCommand": "npm install --force",
-  "buildCommand": "npx expo export --platform web",
-  "outputDirectory": "dist"
+  "buildCommand": "npx expo export:web"
 }
