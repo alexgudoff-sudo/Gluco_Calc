@@ -3,7 +3,7 @@ const path = require('path');
 
 const config = getDefaultConfig(__dirname);
 
-// Принудительно настраиваем алиас @/
+// Это заставит сборщик понимать, что @/ — это корень вашего проекта
 config.resolver.alias = {
   '@': path.resolve(__dirname, './'),
 };
