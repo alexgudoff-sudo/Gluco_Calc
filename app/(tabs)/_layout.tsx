@@ -1,6 +1,6 @@
 import { Tabs } from "expo-router";
 //import { useColors } from "@/hooks/use-colors";
-import { IconSymbol } from "@/components/ui/icon-symbol";
+//import { IconSymbol } from "@/components/ui/icon-symbol";
 import { Pressable, View, StyleSheet, Modal, Text, TextInput, ScrollView } from "react-native";
 import { useState } from "react";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
